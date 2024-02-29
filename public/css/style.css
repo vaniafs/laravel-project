@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 550px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"], .form-signin input[type="text"] {
+  margin-bottom: 10px;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+}
+
+.bg-body-tertiary {
+  background-color: #ff69b4 !important; /* Pink color */
+}
+
+/* Targeting the navbar brand */
+.navbar .navbar-brand {
+  color: #ffffff !important; /* Sets color to white */
+}
+
+/* Targeting navbar links */
+.navbar .nav-link {
+  color: #ffffff !important; /* Sets color to white */
+}
+
+/* For the dropdown items */
+.navbar .dropdown-item {
+  color: #000000 !important; /* Sets dropdown items to black for contrast, adjust if needed */
+}
+
+/* If you have any active or specific state you want to style */
+.navbar .nav-link.active,
+.navbar .nav-link:focus {
+  color: #cccccc !important; /* Lighter or different color for active/focus state, adjust as needed */
+}
+
+/* Mengganti warna tombol menjadi pink */
+.btn-primary {
+  background-color: #ff69b4; /* Warna pink */
+  border-color: #ff69b4; /* Warna border juga diubah menjadi pink */
+}
+
+.btn-primary:hover {
+  background-color: #ff85c2; /* Warna pink yang lebih terang saat di-hover */
+  border-color: #ff85c2;
+}
+
+/* Mengubah warna teks link menjadi pink */
+a {
+  color: #ff69b4; /* Warna pink */
+}
+
+a:hover {
+  color: #ff85c2; /* Warna pink yang lebih terang saat di-hover */
+}
+
+/* Opsional: Mengganti warna form control saat aktif/focus */
+.form-control:focus {
+  border-color: #ff69b4;
+  box-shadow: 0 0 0 0.25rem rgba(255, 105, 180, 0.25);
+}
+
+/* Mengubah warna feedback validasi form */
+.is-invalid {
+  border-color: #ff69b4;
+}
+
+.invalid-feedback {
+  color: #ff69b4;
+}
